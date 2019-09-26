@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RegistrationApp</string>
+    <string name="register">Lets Get Started</string>
+    <string name="login">Login/Register</string>
+    <string name="start">Change/Delete number</string>
+    <string name="number">Change/Delete number</string>
+</resources>

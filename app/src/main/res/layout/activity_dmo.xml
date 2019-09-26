@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dmo"
+    android:background="@drawable/th">
+
+
+    <TextView
+        android:text="Change/Delete Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_margin="50dp"
+        android:textColor="@color/colorFont"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="250dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="45dp"
+            android:layout_margin="20dp"
+            android:textSize="35sp"
+            android:id="@+id/phoneOrg"
+            android:background="@drawable/textviewstyle"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/textviewstyle"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:id="@+id/edPhoneupdate"
+            android:layout_marginBottom="45dp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom = "true"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:id="@+id/editno"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="280dp"
+                android:background="@drawable/barnew"
+                android:textColor="#E6FFFFFF"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:id="@+id/delno"
+                android:layout_marginLeft="140dp"
+                android:textStyle="bold"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="140dp"
+                android:background="@drawable/barnew"
+                android:textColor="#E6FFFFFF"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:id="@+id/backno"
+                android:layout_marginLeft="280dp"
+                android:textStyle="bold"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/barnew"
+                android:textColor="#E6FFFFFF"
+                />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
